@@ -1,7 +1,10 @@
+import { Calendar } from '@features/calendar/components/Calendar/Calendar'
 import './App.css'
 
 export const App = () => {
   return (
-    <div>Hello World!</div>
+    <div>
+      <Calendar />
+    </div>
   )
 }

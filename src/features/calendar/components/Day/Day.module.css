@@ -1,0 +1,22 @@
+.Day {
+  padding: 5px;
+  font-size: 16px;
+  color: var(--dark-text-color);
+  display: block;
+  border-radius: 0.5em;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.3s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.Today {
+  background-color: rgb(129, 213, 241);
+}
+
+.Day:hover {
+  background-color: lightblue;
+}
