@@ -19,6 +19,6 @@
 }
 
 .Day:hover {
-  background-color: var(--blue-200);
+  background-color: var(--blue-600);
   color: #fff;
 }

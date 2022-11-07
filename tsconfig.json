@@ -19,6 +19,7 @@
       "@features/*": ["./src/features/*"],
       "@components/*": ["./src/components/*"],
       "@type/*": ["./src/types/*"],
+      "@utils/*": ["./src/utils/*"],
       "@store": ["./src/store/store"]
     }
   },

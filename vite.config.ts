@@ -14,6 +14,7 @@ export default defineConfig({
       "@features": join(__dirname, './src/features'),
       "@components": join(__dirname, './src/components'),
       "@store": join(__dirname, './src/store/store'),
+      "@utils": join(__dirname, './src/utils'),
       "@type": join(__dirname, './src/types'),
     }
   }
