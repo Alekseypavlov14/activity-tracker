@@ -1,0 +1,9 @@
+.Title {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark-text-color);
+}
+
+.Title span {
+  color: var(--soft-blue);
+}

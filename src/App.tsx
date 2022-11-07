@@ -1,10 +1,15 @@
-import { Calendar } from '@features/calendar/components/Calendar/Calendar'
+import { Layout } from '@components/Layout/Layout'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 export const App = () => {
   return (
-    <div>
-      <Calendar />
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path='/' element={<div>Hello</div>} />
+        </Route>
+      </Routes>
+    </>
   )
 }
