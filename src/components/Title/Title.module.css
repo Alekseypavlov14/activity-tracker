@@ -1,9 +1,9 @@
 .Title {
   font-size: 28px;
   font-weight: 600;
-  color: var(--dark-text-color);
+  color: var(--grey-200);
 }
 
 .Title span {
-  color: var(--soft-blue);
+  color: var(--blue-200);
 }

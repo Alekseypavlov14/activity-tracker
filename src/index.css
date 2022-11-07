@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:regular,600,700);
 
 :root {
-  --soft-blue: rgb(6, 92, 252);
-  --light-blue: rgb(17, 194, 253);
+  --blue-100: rgb(6, 43, 252);
+  --blue-200: rgb(6, 92, 252);
+  --blue-600: rgb(17, 194, 253);
 
-  --dark-text-color: #222;
-  --neutral-text-color: #666;
+  --grey-200: #222;
+  --grey-300: #333;
+  --grey-600: #666;
+  --grey-700: #777;
 }
 
 * {

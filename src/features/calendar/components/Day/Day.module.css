@@ -1,7 +1,7 @@
 .Day {
   padding: 5px;
   font-size: 16px;
-  color: var(--dark-text-color);
+  color: var(--grey-200);
   display: block;
   border-radius: 0.5em;
   width: 30px;
@@ -14,11 +14,11 @@
 }
 
 .Today {
-  background-color: var(--soft-blue);
+  background-color: var(--blue-200);
   color: #fff;
 }
 
 .Day:hover {
-  background-color: var(--light-blue);
+  background-color: var(--blue-200);
   color: #fff;
 }

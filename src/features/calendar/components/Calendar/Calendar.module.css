@@ -1,6 +1,8 @@
 .Calendar {
   --gap: 10px;
+}
 
+.Calendar {
   width: fit-content;
   margin: 0px auto;
 }
@@ -18,7 +20,7 @@
   border: none;
   outline: none;
   background-color: #fff;
-  color: var(--dark-text-color);
+  color: var(--grey-200);
   cursor: pointer;
   user-select: none;
 }
