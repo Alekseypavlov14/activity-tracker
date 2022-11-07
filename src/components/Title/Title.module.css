@@ -2,6 +2,7 @@
   font-size: 28px;
   font-weight: 600;
   color: var(--grey-200);
+  user-select: none;
 }
 
 .Title span {

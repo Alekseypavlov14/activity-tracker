@@ -1,4 +1,14 @@
 .Header {
   width: 100%;
-  padding: 10px;
+  padding: 20px 10px;
+  border-bottom: 1px solid var(--grey-900);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.BurgerButton::before,
+.BurgerButton::after,
+.BurgerButton span {
+  background: var(--blue-200) !important;
 }

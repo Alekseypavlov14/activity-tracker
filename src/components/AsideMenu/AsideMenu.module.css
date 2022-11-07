@@ -1,0 +1,17 @@
+.AsideMenu {
+  width: 70%;
+  height: 100%;
+  border-right: 1px solid var(--grey-600);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #fff;
+  transition: 0.3s;
+  padding-top: 74px; /* Height of the header */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Opened {
+  left: 0;
+}

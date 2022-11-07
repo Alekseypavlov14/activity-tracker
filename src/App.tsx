@@ -7,7 +7,7 @@ export const App = () => {
     <>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route path='/' element={<div>Hello</div>} />
+          <Route path='/' element={<div></div>} />
         </Route>
       </Routes>
     </>
