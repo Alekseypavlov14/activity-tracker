@@ -6,7 +6,7 @@ interface TitleProps {}
 export const Title: FC<TitleProps> = () => {
   return (
     <div className={styles.Title}>
-      <span>Act</span>ivity Tracker
+      <span>Activity</span> Tracker
     </div>
   )
 }
