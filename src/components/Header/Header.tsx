@@ -9,17 +9,20 @@ interface HeaderProps {}
 export const Header: FC<HeaderProps> = () => {
   const [isOpened, setOpened] = useState<boolean>(false)
 
-  const openMenu = () => setOpened(true)
+  const toggleMenu = () => setOpened(opened => !opened)
   const closeMenu = () => setOpened(false)
 
   return (
     <div className={styles.Header}>
-      <AsideMenu isOpened={isOpened} />
+      <AsideMenu 
+        isOpened={isOpened} 
+        closeMenu={closeMenu}
+      />
 
       <BurgerButton 
-        className={styles.BurgerButton}
-        onOpen={openMenu} 
-        onClose={closeMenu} 
+        className={styles.BurgerButton} 
+        onClick={toggleMenu}
+        isOpened={isOpened}
       />
 
       <Title />

@@ -6,13 +6,17 @@ import cn from 'classnames'
 
 interface AsideMenuProps {
   isOpened: boolean
+  closeMenu: () => void
 }
 
-export const AsideMenu: FC<AsideMenuProps> = ({ isOpened }) => {
+export const AsideMenu: FC<AsideMenuProps> = ({ isOpened, closeMenu }) => {
   const navigate = useNavigate()
 
   const createNavigateHandler = (url: string) => {
-    return () => navigate(url)
+    return () => {
+      closeMenu()
+      navigate(url)
+    }
   }
 
   const classNames = cn(
@@ -28,7 +32,7 @@ export const AsideMenu: FC<AsideMenuProps> = ({ isOpened }) => {
       >
         <Link to='/'>Home</Link>
       </div>
-      
+
       <div 
         className={styles.NavLink}
         onClick={createNavigateHandler('/calendar')}
