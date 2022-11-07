@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:regular,600,700);
 
 :root {
+  --soft-blue: rgb(6, 92, 252);
+  --light-blue: rgb(17, 194, 253);
+
   --dark-text-color: #222;
   --neutral-text-color: #666;
 }

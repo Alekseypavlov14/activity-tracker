@@ -14,9 +14,11 @@
 }
 
 .Today {
-  background-color: rgb(129, 213, 241);
+  background-color: var(--soft-blue);
+  color: #fff;
 }
 
 .Day:hover {
-  background-color: lightblue;
+  background-color: var(--light-blue);
+  color: #fff;
 }
