@@ -5,7 +5,14 @@ import { getRangeFromNumber } from './getRangeFromNumber'
 import { parseDate } from './parseDate'
 
 export function getDaysArrayFromMonth(month: Month): Date[] {
-  const daysAmount = getDaysAmountFromMonth(month)
+  let daysAmount = getDaysAmountFromMonth(month)
+
+  if (
+    month.number === 1 && // February
+    month.year % 4 === 0 // Leap year
+  ) {
+    daysAmount += 1
+  }
   
   return getRangeFromNumber(daysAmount).map(e => {
     // Range starts with 0, days - with 1
