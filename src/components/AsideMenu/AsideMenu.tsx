@@ -30,7 +30,7 @@ export const AsideMenu: FC<AsideMenuProps> = ({ isOpened, closeMenu }) => {
         className={styles.NavLink}
         onClick={createNavigateHandler('/')}
       >
-        <Link to='/'>Home</Link>
+        <Link to='/'>Activities</Link>
       </div>
 
       <div 
