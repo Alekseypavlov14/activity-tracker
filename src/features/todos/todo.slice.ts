@@ -20,4 +20,4 @@ const todoSlice = createSlice({
 })
 
 export const todoReducer = todoSlice.reducer
-export const todoSelector = (state: AppState) => state.todos
+export const todoSelector = (state: AppState) => state.todos.list

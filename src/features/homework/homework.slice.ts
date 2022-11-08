@@ -20,4 +20,4 @@ export const homeworkSlice = createSlice({
 })
 
 export const homeworkReducer = homeworkSlice.reducer
-export const homeworkSelector = (state: AppState) => state.homework
+export const homeworkSelector = (state: AppState) => state.homework.list

@@ -1,0 +1,17 @@
+.Activity {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid var(--grey-1200);
+}
+
+.ActivityIcon {
+  height: 60px;
+}
+
+.ActivityName {
+  font-size: 20px;
+  color: var(--grey-300);
+}

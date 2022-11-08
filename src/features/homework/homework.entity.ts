@@ -1,4 +1,4 @@
-import { Activity } from "@features/activities/types/Activity"
+import { Task } from "@features/activities/types/Task"
 import { SingleDay } from "@features/activities/types/SingleDay"
 
-export interface HomeworkEntity extends Activity<SingleDay> {}
+export interface HomeworkEntity extends Task<SingleDay> {}
