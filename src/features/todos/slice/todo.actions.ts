@@ -6,9 +6,8 @@ export namespace TodoActions {
 
   export interface Create extends TodoData {}
 
-  export interface Update {
+  export interface Update extends TodoId {
     newValues: Partial<TodoData>
-    id: number
   }
   
   export interface Delete extends TodoId {}

@@ -6,9 +6,8 @@ export namespace HomeworkActions {
 
   export interface Create extends HomeworkSubjectData {}
   
-  export interface Update {
+  export interface Update extends HomeworkSubjectId {
     newValues: Partial<HomeworkSubjectData>
-    id: number
   }
 
   export interface Delete extends HomeworkSubjectId {}
