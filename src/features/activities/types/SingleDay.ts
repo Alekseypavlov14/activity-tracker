@@ -1,3 +1,1 @@
-export interface SingleDay {
-  date: number
-}
+export type SingleDay = number
